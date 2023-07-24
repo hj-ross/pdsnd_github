@@ -92,7 +92,14 @@ def get_month():
     return month
 
 def get_day():
-    """Get the day of the week for analysis."""
+    """
+    
+    Get the day of the week for analysis.
+    
+    Returns:
+        (str) day - name of day to filter by
+    
+    """
     
     ask_day = "Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?"
     day = ""
