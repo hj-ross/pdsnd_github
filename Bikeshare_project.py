@@ -71,7 +71,14 @@ def get_filters():
 
 
 def get_month():
-    """Get the month for analysis."""
+    """
+    
+    Get the month for analysis.
+    
+    Returns:
+        (str) month - name of month to filter by
+    
+    """
     
     ask_month = "Which month - January, February, March, April, May, or June?"
     month = ""
